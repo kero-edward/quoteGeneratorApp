@@ -1,0 +1,43 @@
+section {
+    height: 100vh;
+    background-image: url('../images/203771-full-size-calm-background-1920x1080-for-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    width: 75%;
+    backdrop-filter: blur(45px);
+}
+
+#image {
+    width: 50%;
+}
+
+#title {
+    font-family: 'Crimson Pro', serif;
+    font-size: 60px;
+    color: #253C87;
+}
+
+#quote {
+    font-family: 'Kalnia', serif;
+}
+
+#author {
+    font-family: 'Pacifico', cursive;
+}
+
+button {
+    background-color: #253C87 !important;
+    color: white !important;
+    height: 120px;
+    width: 120px;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    font-size: 20px !important;
+}
