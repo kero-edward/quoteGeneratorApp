@@ -65,7 +65,7 @@ function generateQuote() {
         if (quoteIndex == i) {
             document.getElementById("quote").innerHTML = quotes[i].quote;
             document.getElementById("author").innerHTML = quotes[i].author;
-            document.getElementById("image").innerHTML = '<img src="'+quotes[i].image+'" alt="'+quotes[i].author+' picture" class="rounded-circle"/>';
+            document.getElementById("image").innerHTML = '<img src="'+quotes[i].image+'" alt="'+quotes[i].author+' picture" class="w-50 rounded-circle"/>';
             quotesCopy.push(quotes[quoteIndex]);
             quotes.splice(quoteIndex, 1);
         }
